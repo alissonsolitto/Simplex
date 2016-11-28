@@ -1,0 +1,41 @@
+<div class="card-header" style="padding-top:0px;">
+    <h2>
+        <small>Escolha o objetivo da solução linear (Maximizar ou Minimizar) e defina a quantidade de variáveis e de restrições do sistema.
+        </small>
+    </h2>
+</div>
+<div class="card-body card-padding">
+    
+    <p class="c-black f-500 m-b-20">Escolha o objetivo:</p>
+    <div class="radio m-b-15">
+        <label>
+            <input type="radio" ng-model="opcaoHome" value="0">
+            <i class="input-helper"></i>
+            Maximizar
+        </label>
+    </div>
+
+    <div class="radio m-b-15">
+        <label>
+            <input type="radio" ng-model="opcaoHome" value="1">
+            <i class="input-helper"></i>
+            Minimizar
+        </label>
+    </div>
+    
+    </br>
+    
+    <p class="c-black f-500 m-b-20">Defina a quantidade de variáveis:</p>      
+    <input type="text" ng-model="numVariaveisHome" class="form-control input-mask" data-mask="000.000.000.000.000" placeholder="Ex.: 3" autocomplete="off">
+    
+    </br>
+    <p class="c-black f-500 m-b-20">Defina a quantidade de restrições:</p>
+    <input type="text" ng-model="numRestricoesHome" class="form-control input-mask" data-mask="000.000.000.000.000" placeholder="Ex.: 5" autocomplete="off">
+
+    <ul class="fw-footer pagination wizard" style="border-top: none;">
+      <li class="previous disabled"><a class="a-prevent" href=""><i class="material-icons" style="font-size:40px;">navigate_before</i></a></li>
+      <li class="next"><a class="a-prevent" href="" ng-click="onClickAvancar()"><i class="material-icons" style="font-size:40px;">navigate_next</i></a></li>    
+    </ul>
+</div>
+
+

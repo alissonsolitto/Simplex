@@ -1,0 +1,53 @@
+<div class="card-header" style="padding-top:0px;">
+    <h2>Objetivo: {{tipoSimplex}}
+        <small>Defina os valores das variáveis e das restrições.
+        </small>
+    </h2>
+</div>
+<div class="card-body card-padding">
+    
+    <p class="c-black f-500 m-b-20">Função:</p>
+    <div id="divSimplex" style="height:50px;">    
+      <div class="col-sm-1" style="margin-top:9px; padding-left:0px; width:40px;">
+        <div class="form-group">
+            <div class="fg-line">
+                <span>Z = </span>
+            </div>                
+        </div>
+      </div>
+      <div id="default" style="display:none;">
+        <div class="col-sm-1" style="margin-right:20px; padding-left:0px;">
+          <div class="form-group">
+              <div class="fg-line">
+                  <input type="text" class="defaultInput form-control" value="">
+                  <span class="defaultDesc" style="position: absolute;top: 8px;right:0px;">x1 +</span>
+              </div>                
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </br>
+    <p class="c-black f-500 m-b-20">Restrições:</p>         
+    
+    <div id="contentRestricao">    
+      <div id="divRestricao" class="row" style="display:none;">
+        <div class="col-sm-1" style="margin-right:20px; padding-left:0px; display:none;" id="default">
+          <div class="form-group fg-float">
+            <div class="fg-line">
+                <input type="text" class="defaultInputRestricao form-control" value="">
+                <span class="defaultDescRestricao" style="position: absolute;top: 8px;right:0px;"></span>
+            </div>        
+          </div>          
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <ul class="fw-footer pagination wizard" style="border-top: none;">
+      <li class="previous" ui-sref="home"><a class="a-prevent" href=""><i class="material-icons" style="font-size:40px;">navigate_before</i></a></li>
+      <li class="next"><a class="a-prevent" href="" ng-click="ProcessarSimplex()"><i class="material-icons" style="font-size:40px;">navigate_next</i></a></li>    
+    </ul>
+</div>

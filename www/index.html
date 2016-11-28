@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html ng-app="appSimplex">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <title>Simplex</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Library CS -->
+    <link rel="stylesheet" href="css/app_1.min.css">
+    <link rel="stylesheet" href="css/app_2.min.css">
+    <!-- Library JS-->
+    
+    <script type="text/javascript" src="scripts/angular.js"></script>
+    <script type="text/javascript" src="scripts/angular-ui-router.js"></script>
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="scripts/appConfig.js"></script>
+    <script type="text/javascript" src="scripts/appRouter.js"></script>
+
+
+    <script type="text/javascript" src="views/resultado/ctrlResultado.js"></script>
+    <script type="text/javascript" src="views/incluirDados/ctrlIncluirDados.js"></script>
+    <script type="text/javascript" src="views/home/ctrlHome.js"></script>
+
+</head>
+<body>
+    <!-- HEADER NAVBAR -->
+    <header id="header" class="clearfix" style="margin-left:0px; width:100%; background-color:#2196F3">
+        <ul class="h-inner">
+            <li class="pull-left" style="margin-right:30px; margin-top:0px;">
+              <span style="font-size: 20px; color: white;">SIMPLEX</span>
+            </li>
+            
+            <li class="pull-right" style="margin-right:30px; margin-top:0px;">
+              <span style="font-size: 20px; color: white;">BCC - UNIVEM</span>
+            </li>
+        </ul>
+    </header>
+    
+    <!-- Views -->
+    <section id="main">
+      <section id="content" style="padding-left:50px; padding-right:50px; padding-bottom:50px;">
+        <div class="container">
+          <div class="card">
+            <div class="card-body card-padding">
+                <div class="form-wizard-basic fw-container">
+                    <ul class="tab-nav text-center fw-nav">
+                        <li class="active" id="aba1"><a>Parametrização</a></li>
+                        <li class="" id="aba2"><a>Inclusão de Dados</a></li>
+                        <li class="" id="aba3"><a>Resultados</a></li>                   
+                    </ul>
+                    <div class="tab-content">
+                      <ui-view></ui-view>
+                    </div>
+                </div>
+            </div>
+          </div>                      
+        </div>
+      </section>
+    </section>        
+</body>
+</html> 
