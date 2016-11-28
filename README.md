@@ -26,11 +26,10 @@ Este documento contem uma visão geral do projeto Simplex. O objetivo é apresen
 
 Simplex
 
-* Funções MIN E MAX
+* Funções maximizar e minimizar
 * Não possuir número fixo para variáveis e restrições.
 * Demonstrar tabela da programação dinâmica. Não possuir número fixo de itens.
 * Gerar passo a passo, que mostra todas as iterações necessárias para o resultado final.
-* Análise de Sensibilidade
 
 ### 2. Problemas conhecidos e limitações
 
@@ -51,9 +50,8 @@ Simplex
 |15/11 e 16/11|Implementação do método Minimizar.|
 |17/11|Adicionado função de amostragem passo-a-passo.|
 |18/11 e 20/11|Testes e correção de bugs.|
-|21/11 a 23/11 |Adicionado Análise de Sensibilidade.|
-|24/11 e 25/11|Testes finais.|
-|26/11|Liberação versão final.|
+|20/11 e 22/11|Testes finais.|
+|23/11|Liberação versão final.|
 		
 ### 4. Compatibilidade
 		
@@ -86,4 +84,3 @@ Nessa liberação foram contemplados os seguintes itens:
 |1|Maximizar|Cria a equação principal e as equações de restrições dinamicamente, possibilitando o usuário a maximizar sistemas lineares.| Concluído|Apenas restrições de “<=”|
 |2|Minimizar|Cria a equação principal e as equações de restrições dinamicamente, possibilitando o usuário a minimizar sistemas lineares.|   Concluído|Apenas restrições de “<=”|
 |3|Demonstrar passo a passo|Demonstrar ao usuário as alterações na tabela em cada iteração do método simplex.| Concluído||
-|4|Tabela de Sensibilidade|Demonstrar ao usuário tabela de sensibilidade.|Concluído||
