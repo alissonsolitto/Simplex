@@ -4,8 +4,8 @@ Aplicação desenvolvida para o trabalho da disciplina de Pesquisa Operacional
 
 ## Informações adicionais na Wiki
 
-<a href="https://github.com/alissonsolitto/simplex">Nota Liberação</a><br/>
-<a href="https://github.com/alissonsolitto/simplex">Manual Simplex</a><br/>
+<a href="https://github.com/alissonsolitto/simplex/wiki/Nota-de-libera%C3%A7%C3%A3o">Nota Liberação</a><br/>
+<a href="https://github.com/alissonsolitto/simplex/wiki/Manual-simplex">Manual Simplex</a><br/>
 
 ## Integrantes da equipe
 
